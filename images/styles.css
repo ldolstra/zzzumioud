@@ -1,0 +1,134 @@
+/* #A66812 #6A2365 #8667AB*/
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  text-align: center;
+  position: relative;
+  font-family: 'Caveat', cursive;
+  background-color: #060407;
+}
+
+.home-screen {
+  background-image: url("images/Nacht2.JPG");
+  background-attachment: fixed;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+  z-index: 4;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+}
+
+.nav-link{
+  color: #8667AB !important;
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+.nav-link:hover{
+  color: #61B22F !important;
+  font-weight: bolder;
+}
+
+
+
+.logo{
+  height: 50px;
+}
+
+.headings {
+  position: absolute;
+
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.big-heading {
+  color: #61B22F;
+  font-size: 8rem;
+}
+
+.sub-heading {
+  color: #15ACE1;
+  font-size: 5rem;
+  padding-bottom: 50px;
+}
+
+.img-zzzumi {
+
+  max-height: 400px;
+
+}
+
+
+/* start of desktop styles */
+
+@media screen and (max-width: 991px) {
+
+  .big-heading {
+    color: #61B22F;
+    font-size: 4rem;
+  }
+
+  .sub-heading {
+    color: #15ACE1;
+    font-size: 2rem;
+    padding-bottom: 50px;
+  }
+
+  .img-zzzumi {
+
+    max-height: 150px;
+
+  }
+/* start of large tablet styles */
+.navbar{
+  z-index: 5;
+}
+
+.nav-link{
+  background-color:  #060407;
+  z-index: 5;
+}
+}
+
+
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+.big-heading {
+  color: #61B22F;
+  font-size: 4rem;
+}
+
+.sub-heading {
+  color: #15ACE1;
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.img-zzzumi {
+
+  max-height: 200px;
+
+}
+
+
+}
